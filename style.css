@@ -1,0 +1,39 @@
+* {
+    box-sizing: 0;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    margin: 5px;
+}
+
+article {
+    margin: 3px;
+}
+
+/* ------fonts */
+html {
+    font-size: 10px;
+}
+p {
+    font-size: 1.8rem;
+}
+h1 {
+    font-size: 2.7rem;
+}
+h2 {
+    font-size: 2.3rem;
+}
+h3 {
+    font-size: 2rem;
+}
+h4 {
+    font-size: 1.8rem;
+}
+h5 {
+    font-size: 1.6rem;
+}
+h6 {
+    font-size: 1.3rem;
+}
