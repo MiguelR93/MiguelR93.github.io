@@ -37,3 +37,13 @@ h5 {
 h6 {
     font-size: 1.3rem;
 }
+
+.skill {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.skill > article{
+    width: 40vw;
+}
