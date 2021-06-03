@@ -51,20 +51,24 @@ a {
 
 header {
     height: 15vh;
+    width: 100vw;
     background-color: var(--first-background-color);
     color: var(--first-background-color_text);
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: fixed;
+    top: 0;
 }
 
 header ul {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 }
 header li {
-    list-style: none;    
-    flex-grow: 1;
+    list-style: none;
+    font-size: 1.8rem;
 }
 header li:hover {
     background-color: var(--first-bakcground-color_hover);
