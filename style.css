@@ -1,6 +1,8 @@
 :root{
     --first-background-color: rgb(153, 53, 53);
     --first-background-color_text: rgb(255, 255, 255);
+    --first-bakcground-color_hover: rgb(182, 94, 94);
+    --first-bakcground-color_hover_text: rgb(0, 0, 0);
 }
 * {
     box-sizing: 0;
@@ -42,6 +44,11 @@ h6 {
     font-size: 1.2rem;
 }
 
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
 header {
     height: 15vh;
     background-color: var(--first-background-color);
@@ -49,6 +56,19 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+}
+header li {
+    list-style: none;    
+    flex-grow: 1;
+}
+header li:hover {
+    background-color: var(--first-bakcground-color_hover);
+    color: var(--first-bakcground-color_hover_text);
 }
 
 main > section {
