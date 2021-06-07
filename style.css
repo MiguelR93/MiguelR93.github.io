@@ -21,6 +21,7 @@ article {
 /* ------fonts */
 html {
     font-size: 10px;
+    font-family: 'Cormorant Garamond', serif;
 }
 p {
     font-size: 1.8rem;
