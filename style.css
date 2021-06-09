@@ -44,10 +44,14 @@ h5 {
 h6 {
     font-size: 1.2rem;
 }
+figcaption {
+    font-size: 1.8rem;
+}
 
 a {
     color: inherit;
     text-decoration: inherit;
+    font-size: inherit;
 }
 
 header {
@@ -90,6 +94,10 @@ main > section {
     justify-content: space-around;
 }
 
-.skill > article{
+/* .skill > article{
     width: 40vw;
+} */
+
+.skill img {
+    max-height: 50px;
 }
