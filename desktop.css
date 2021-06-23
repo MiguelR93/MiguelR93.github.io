@@ -1,8 +1,0 @@
-.skill > article{
-    width: 40vw;
-}
-.skill {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}

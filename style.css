@@ -55,7 +55,7 @@ a {
 }
 
 header {
-    height: 15vh;
+    height: 20vh;
     width: 100vw;
     background-color: var(--first-background-color);
     color: var(--first-background-color_text);
@@ -81,7 +81,7 @@ header li:hover {
 }
 
 main > section {
-    min-height: 85vh;
+    min-height: 80vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
