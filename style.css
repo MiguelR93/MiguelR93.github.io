@@ -54,8 +54,8 @@ a {
     font-size: inherit;
 }
 
-header {
-    height: 20vh;
+header ul {
+    height: 5vh;
     width: 100vw;
     background-color: var(--first-background-color);
     color: var(--first-background-color_text);
@@ -81,7 +81,7 @@ header li:hover {
 }
 
 main > section {
-    min-height: 80vh;
+    min-height: 95vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
